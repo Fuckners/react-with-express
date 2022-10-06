@@ -1,0 +1,43 @@
+main {
+  padding: 10px;
+}
+
+main > h1 {
+  text-align: center;
+}
+
+form.register {
+  display: flex;
+  flex-direction: column;
+  margin: 10px auto;
+  width: 50%;
+  background-color: aliceblue;
+  padding: 10px;
+  border-radius: 10px 10px 0 0;
+}
+
+form.register label {
+  margin: 10px;
+}
+
+form.register label > p {
+  text-align: center;
+}
+
+form.register label > input {
+  width: 100%;
+  border-radius: 5px;
+}
+
+form.register button {
+  border-radius: 5px 5px 0 0;
+  background-color: black;
+  border: none;
+  padding: 3px 0;
+  font-weight: bold;
+  color: white;
+}
+
+form.register button:active {
+  background-color: rgb(66, 66, 66);
+}
